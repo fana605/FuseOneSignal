@@ -1,0 +1,36 @@
+{
+  "RootNamespace": "com.velcrodesign.fuseonesignal",
+  "Title": "Fuse OneSignal",
+  "Publisher": "VelcroWorks",
+  "Version": "1.0.0",
+  "VersionCode": 100,
+  "Mobile": {
+        "UriScheme": "fuseonesignal",
+        "ShowStatusbar": true,
+        "Orientations": "Portrait"
+  },
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+    "FuseCore",
+    "Fuse.Scripting"
+  ],
+  "iOS": {
+    "BundleIdentifier": "com.velcrodesign.fuseonesignal",
+    "DevelopmentTeam": "9GL5CW8LLA"
+  },
+  "Includes": [
+    "*"
+  ],
+  "Projects": [
+    "fuse_modules/bolav/fuse-cocoapods/cocoapods_include.unoproj"
+  ],
+  "Excludes": [
+    "fuse_modules/"
+  ],
+  "FusePM": {
+    "Dependencies": [
+      "https://github.com/bolav/fuse-cocoapods"
+    ]
+  }
+}

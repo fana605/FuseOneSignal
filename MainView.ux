@@ -1,0 +1,22 @@
+<App Background="#eee">
+
+	<JavaScript>
+        var OneSignal = require("FuseOneSignal");
+
+        //OneSignal.sendtTag('key', 'value');
+        
+    </JavaScript>
+
+	<!-- Since we will likely want to navigate to other pages, we include a Router -->
+	<Router ux:Name="router" />
+	<!-- Let's just have a simple DockPanel layout for our app -->
+	<DockPanel>
+		<!-- Now we take care of the status and bottom bars at the root level -->
+		<StatusBarBackground Dock="Top" />
+		<BottomBarBackground Dock="Bottom" IncludesKeyboard="false" />
+		<!-- And then we fill the available space with our page navigation -->
+		<Panel Dock="Fill" ClipToBounds="true">
+			<Text Value="ok4" />
+		</Panel>
+	</DockPanel>
+</App>
