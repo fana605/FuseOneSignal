@@ -16,7 +16,25 @@
 		<BottomBarBackground Dock="Bottom" IncludesKeyboard="false" />
 		<!-- And then we fill the available space with our page navigation -->
 		<Panel Dock="Fill" ClipToBounds="true">
-			<Text Value="ok4" />
+			<ScrollView>
+			<StackPanel>
+			<Text TextWrapping="Wrap">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lacus vel purus lacinia elementum. Nam tempor auctor lectus a tempor. In dictum tortor at velit suscipit tincidunt. Donec sed suscipit sapien. Sed ac varius justo. Cras at metus imperdiet nulla eleifend vulputate ac sed nunc. Donec nunc elit, hendrerit at augue ac, feugiat lacinia risus. Nam ut eros sed ipsum tincidunt aliquet a vitae dui. Nullam eu tellus malesuada, vestibulum leo quis, tristique neque. Nulla lobortis quam neque, sit amet viverra nulla ultricies ut. Nullam nisl ipsum, gravida sit amet libero faucibus, mattis hendrerit velit. In condimentum ac sapien ac lacinia. Nam luctus nisi non nulla facilisis, eu fringilla tellus feugiat. Vestibulum dapibus efficitur tincidunt.
+			</Text>
+			<Text TextWrapping="Wrap">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lacus vel purus lacinia elementum. Nam tempor auctor lectus a tempor. In dictum tortor at velit suscipit tincidunt. Donec sed suscipit sapien. Sed ac varius justo. Cras at metus imperdiet nulla eleifend vulputate ac sed nunc. Donec nunc elit, hendrerit at augue ac, feugiat lacinia risus. Nam ut eros sed ipsum tincidunt aliquet a vitae dui. Nullam eu tellus malesuada, vestibulum leo quis, tristique neque. Nulla lobortis quam neque, sit amet viverra nulla ultricies ut. Nullam nisl ipsum, gravida sit amet libero faucibus, mattis hendrerit velit. In condimentum ac sapien ac lacinia. Nam luctus nisi non nulla facilisis, eu fringilla tellus feugiat. Vestibulum dapibus efficitur tincidunt.
+			</Text>
+			<Text TextWrapping="Wrap">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lacus vel purus lacinia elementum. Nam tempor auctor lectus a tempor. In dictum tortor at velit suscipit tincidunt. Donec sed suscipit sapien. Sed ac varius justo. Cras at metus imperdiet nulla eleifend vulputate ac sed nunc. Donec nunc elit, hendrerit at augue ac, feugiat lacinia risus. Nam ut eros sed ipsum tincidunt aliquet a vitae dui. Nullam eu tellus malesuada, vestibulum leo quis, tristique neque. Nulla lobortis quam neque, sit amet viverra nulla ultricies ut. Nullam nisl ipsum, gravida sit amet libero faucibus, mattis hendrerit velit. In condimentum ac sapien ac lacinia. Nam luctus nisi non nulla facilisis, eu fringilla tellus feugiat. Vestibulum dapibus efficitur tincidunt.
+			</Text>
+			<Text TextWrapping="Wrap">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lacus vel purus lacinia elementum. Nam tempor auctor lectus a tempor. In dictum tortor at velit suscipit tincidunt. Donec sed suscipit sapien. Sed ac varius justo. Cras at metus imperdiet nulla eleifend vulputate ac sed nunc. Donec nunc elit, hendrerit at augue ac, feugiat lacinia risus. Nam ut eros sed ipsum tincidunt aliquet a vitae dui. Nullam eu tellus malesuada, vestibulum leo quis, tristique neque. Nulla lobortis quam neque, sit amet viverra nulla ultricies ut. Nullam nisl ipsum, gravida sit amet libero faucibus, mattis hendrerit velit. In condimentum ac sapien ac lacinia. Nam luctus nisi non nulla facilisis, eu fringilla tellus feugiat. Vestibulum dapibus efficitur tincidunt.
+			</Text>
+			<Text TextWrapping="Wrap">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lacus vel purus lacinia elementum. Nam tempor auctor lectus a tempor. In dictum tortor at velit suscipit tincidunt. Donec sed suscipit sapien. Sed ac varius justo. Cras at metus imperdiet nulla eleifend vulputate ac sed nunc. Donec nunc elit, hendrerit at augue ac, feugiat lacinia risus. Nam ut eros sed ipsum tincidunt aliquet a vitae dui. Nullam eu tellus malesuada, vestibulum leo quis, tristique neque. Nulla lobortis quam neque, sit amet viverra nulla ultricies ut. Nullam nisl ipsum, gravida sit amet libero faucibus, mattis hendrerit velit. In condimentum ac sapien ac lacinia. Nam luctus nisi non nulla facilisis, eu fringilla tellus feugiat. Vestibulum dapibus efficitur tincidunt.
+			</Text>
+			</StackPanel>
+		</ScrollView>
 		</Panel>
 	</DockPanel>
 </App>
